@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="svrErr">There was error while loading data from server, please try after some time</string>
+    <string name="noData">No data available</string>
 </resources>

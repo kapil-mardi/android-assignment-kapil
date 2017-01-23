@@ -4,6 +4,7 @@ import com.example.prashant.demoapplication.model.DataModel;
 
 import java.util.List;
 
+import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
@@ -12,5 +13,5 @@ import retrofit2.http.GET;
 public interface ApiInterface {
 
     @GET("/posts")
-    public List<DataModel> getPostData();
+    Call<List<DataModel>> getPostData();
 }
